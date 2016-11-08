@@ -1,0 +1,670 @@
+<!doctype html>
+<meta charset="UTF-8">
+<title>OPPO官网</title>
+<style>
+	*{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+	}
+	.container{
+		width:100%;
+	}
+	.header{
+		height:110px;
+	}
+	.ha{
+		height:35px;
+		background:#009B72;
+	}
+	.ha ul li{			
+		font-size:12px;
+		color:white;
+		float:left;
+		margin-top:10px;
+		margin-left:1%;				
+	}
+	ul a{
+		text-decoration:none;
+	}
+	.hb{
+		padding-left:11%;
+	}
+	.hc{
+		width:40%;
+	}
+	.hd{
+		height:75px;
+		background:#ffffff;
+	}
+	.logo{
+		margin-left:12%;
+		margin-top:25px;
+		width:12%;
+		float:left;
+	}
+	.hd ul li{
+		font-size:14px;
+		font-weight:bold;
+		color:#7B7BA7;
+		margin-left:40px;
+		margin-top:30px;
+		float:left;				
+	}
+	.hd a{
+		text-decoration:none;
+	}
+	.he{
+		padding-left:340px;	
+	}	
+	.hf{
+		float:right;
+		margin-right:195px;
+	}
+	.hf li ul li{
+		line-height:2px;
+		clear:both;
+		position:relative;
+	}			
+	.hf li ul{
+		position:absolute;
+		display:none;
+	}
+	.hf li:hover ul{
+		display:block;
+	}
+	.hf li:hover {
+		border-bottom:2px solid #009B72;
+	}
+	.ca{
+		width:100%;
+	}
+	.ca img{
+		width:100%;
+	}
+	.cb{
+		width:94%;
+		margin:0 auto;
+	}
+	.cb .oppoplus div{
+		float:left;
+		width:46%;
+	}
+	.cb .oppoplus div img{
+		width:100%;
+	}
+	.oppoplus-two{
+		margin-left:8%;
+	}
+	.clear{
+		overflow:hidden;
+	}
+	.clear:after{
+		content:"";
+		display:block;
+		width:100%;
+		height:0px;
+		clear:both;
+	}
+	.hk{
+		height:420px;				
+	}
+	.hl{
+		height:340px;
+		width:310px;
+		margin-left:120px;
+		float:left;
+	}
+	.hk h1{
+		font-size:20px;
+		color:#288E66;
+	}
+	.hk h2{
+		font-size:18px;
+		color:#A1A2A0;
+		padding-top:10px;
+	} 
+	.hm{			
+		margin-top:15px;
+	}
+	.hn{
+		height:340px;
+		width:340px;
+		margin-left:60px;
+		float:left;
+	}
+	.ho{
+		margin-top:15px;
+		float:left;
+	}
+	.hp{
+		margin-top:5px;
+		float:left;
+	}
+	.hq{
+		font-color:17px;
+		color:#25895A;				
+		margin-left:5px;
+		margin-top:25px;
+		float:left;
+	}
+	.hr{
+		width:250px;
+		border-bottom:1px solid #DDDDDD;
+		margin-top:30px;
+		float:left;				
+	}
+	.hs{
+		height:320px;
+		width:340px;
+		margin-left:62px;
+		float:left;
+	}
+	.ht{
+		height:360px;
+		width:1260px;
+		background:#DDDDDD;
+		margin-top:250px;
+	}
+	.hu{
+		height:270px;
+		width:270px;
+		background:url("./images./08.jpg");
+		background-size:270px;
+		margin-left:120px;
+		margin-top:50px;
+		float:left;				
+	}
+	.hv{
+		height:270px;
+		width:270px;
+		background:url("./images./09.jpg");
+		background-size:270px;				
+		margin-top:50px;
+		float:left;		
+		}
+	.hw{
+		height:270px;
+		width:270px;
+		background:url("./images./10.jpg");
+		background-size:270px;
+		margin-top:50px;
+		float:left;		
+	}
+	.hx{
+		height:270px;
+		width:270px;
+		background:url("./images./11.jpg");
+		background-size:270px;
+		margin-top:50px;
+		float:left;		
+	}
+	.hy{
+		height:5px;
+		width:1080px;
+		background:#2AAD6F;
+		margin-left:120px;
+		float:left;
+	}			
+	.hz{
+		width:100px;
+		height:100px;
+		background:#2AAD6F;
+		border-radius:100px;
+		margin-top:30px;
+		margin-left:75px;
+		float:left;
+	}
+	.ht h3{
+		font-size:20px;
+		color:white;
+		margin-top:35px;
+		margin-left:85px;
+		float:left;
+	}
+	.haa{
+		margin-left:35px;
+		margin-top:35px;
+		float:left;
+	}
+	.footer{
+		height:555px;
+	}
+	.fa{
+		height:190px;
+	}
+	.fb{
+		width:350px;
+		height:100px;
+		background:#2AAD6F;
+		margin-top:45px;
+		margin-left:125px;
+		float:left;
+	}
+	.fc{
+		width:350px;
+		height:100px;
+		background:#EDEDED;
+		margin-top:45px;
+		margin-left:15px;
+		float:left;
+	}
+	.fd{
+		width:350px;
+		height:100px;
+		background:#2AAD6F;
+		margin-top:45px;
+		margin-left:15px;
+		float:left;
+	}
+	.fe{
+		margin-top:20px;
+		margin-left:35px;
+		float:left;
+	}
+	.fa h3{
+		font-size:20px;
+		color:white;
+		margin-left:125px;
+		margin-top:40px;
+		float:left;
+	}
+	.fc h3{
+		font-size:20px;
+		color:#333333;
+		margin-left:125px;
+		margin-top:40px;
+		float:left;
+	}
+	.ff{
+		height:200px;
+	}
+	.ff h1{
+		font-size:18px;
+		color:#41A588;
+	}
+	.ff h2{
+		font-size:15px;
+		color:#DDDDDD;
+	}
+	.fg{				
+		margin-top:40px;
+		margin-left:140px;
+		float:left;
+	}
+	.fh{
+		margin-top:20px;
+	}
+	.fi{
+		margin-top:40px;
+		margin-left:135px;
+		float:left;				
+	}
+	.fj{
+		margin-top:40px;
+		margin-left:120px;
+		float:left;		
+	}
+	.fk{
+		margin-top:40px;
+		margin-left:120px;
+		float:left;		
+	}
+	.fl{
+		margin-top:40px;
+		margin-left:145px;
+		float:left;		
+	}
+	.ff a{
+		text-decoration:none;
+	}
+	.fm{
+		height:100px;
+	}
+	.fn{
+		margin-left:140px;
+		margin-top:25px;
+		float:left;
+	}
+	.fm h3{
+		font-size:12px;
+		color:#A1A9B2;
+	}
+	.fo img{
+		margin-left:10px;
+		margin-top:15px;
+		float:left;
+	}
+	.fo ul{
+		position:relative;
+	}
+	.fo ul li ul{
+		position:absolute;
+		left:250px;
+		top:50px;
+		display:none;
+	}
+	.fo ul li:hover ul{
+		display:block;
+	}
+	.fp{
+		margin-left:40px;
+		margin-top:25px;
+		float:left;
+	}
+	.fq{
+		margin-left:220px;
+		margin-top:25px;
+		float:left;
+	}
+	.fr{
+		margin-top:25px;
+		margin-left:10px;
+		float:left;
+	}
+	.fm h1{
+		font-size:18px;
+		color:#2AAD6F;
+	}
+	.fm h2{
+		font-size:14px;
+		color:#7B7B7B;
+	}
+	.fs{
+		margin-left:30px;
+		margin-top:25px;
+		float:left;
+	}
+	.ft{
+		height:115px;
+		margin-left:140px;
+		margin-top:25px;
+		float:left;
+	}
+	.ft h3{
+		font-size:12px;
+		color:#7B7B7B
+	}
+	.fu{
+		height:115px;
+		margin-left:20px;
+		margin-top:25px;
+		float:left;
+	}
+	.x{
+		width:70px;
+		height:20px;
+		background:#DDDDDD;
+		bottom:0px;
+		right:0px;
+		position:fixed;
+	}
+	.x a{
+		text-decoration:none;
+	}
+	.hu:hover .hz{
+		background:white;
+	}
+	.hv:hover .hz{
+		background:white;
+	}
+	.hw:hover .hz{
+		background:white;
+	}
+	.hx:hover .hz{
+		background:white;
+	}
+	@media screen and (max-width:900px){
+			.header{
+				display:none;
+			}
+			.cb .oppoplus div{
+				float:none;
+				width:90%;
+				margin:0 auto;
+			}
+			.hk{
+				width:840px;
+			}
+			.hs{
+				display:none;
+			}
+			.ht{
+				width:840px;
+				height:840px;
+			}
+			.hw{
+				clear:both;
+				margin-left:120px;	
+			}
+			.footer{
+				display:none;
+			}
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="ha">
+				<ul>
+					<a href="#">
+						<li class="hb">|</li>
+						<li>社区</li>
+						<li>|</li>
+						<li>ColorOS</li>
+						<li>|</li>
+						<li>软件商店</li>
+						<li>|</li>
+						<li>手机助手</li>
+						<li>|</li>
+						<li class="hc">云服务</li>
+						<li>|</li>
+						<li>登陆</li>
+						<li>|</li>
+						<li>注册</li>
+						<li>|</li>
+						<li>Global</li>
+					</a>
+				</ul>
+			</div>
+			<div class="hd">
+				<div>
+					<image src="./images./oppo_logo.png" class="logo" >
+				</div>
+				<ul class="hf">	
+					<a href="#">					
+						<li>首页</li>
+						<li>产品
+							<ul>
+								<li>R9</li>
+								<li>R9 Plus</li>
+								<li>R7</li>
+								<li>R7 Plus</li>
+								<li>R7s</li>
+							</ul>
+						</li>
+						<li>品牌</li>
+						<li>在线商城</li>
+						<li>体验店</li>	
+					</a>				
+				</ul>
+			</div>
+		</div>
+		<div class="content" clear>
+			<div class="ca" clear>
+				<img src="images/01.jpg">
+			</div>
+			<div class="cb" clear>
+				<div class="oppoplus" clear> 
+					<div>
+						<img src="images/02.jpg">
+					</div>
+					<div class="oppoplus-two">
+						<img src="images/03.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="hk">
+					<div class="hl">
+						<h1>探秘OPPO</h1>
+						<h2>了解OPPO品牌故事</h2>
+						<image src="./images./04.jpg" width="310px" height="271px" class="hm">
+					</div>
+					<div class="hn">
+						<h1>OPPO最新新闻</h1>
+						<h2>了解OPPO最新市场动态</h2>
+						<table width="340px" height="271px">
+							<tr>
+								<td><image src="./images./05.jpg" class="ho"></td>
+								<td class="hq">OPPO R9雪岩灰版开箱图赏</td>
+								<td class="hr"></td>
+							</tr>
+							<tr>
+								<td><image src="./images./06.jpg" class="hp"></td>
+								<td class="hq">OPPO R9系列平均每1.1秒销售一台</td>
+								<td class="hr"></td>
+							</tr>
+							<tr>
+								<td><image src="./images./07.jpg" class="hp"></td>
+								<td class="hq">你的双手是孩子温暖的依靠 OPPO六一行动</td>
+								<td class="hr"></td>								
+							</tr>
+						</table>
+					</div>
+					<div class="hs">
+						<iframe src="./images./index1.htm" width="320px" height="340px" frameborder="0" scrolling="no"></iframe>
+					</div>
+				</div>
+			
+				<div class="ht">
+					<div class="hu">
+						<h3>会员好礼</h3>
+						<div class="hz">
+							<image src="./images./18.png" class="haa">
+						</div>
+					</div>
+					<div class="hv">
+						<h3>需要帮助？</h3>
+						<div class="hz">
+							<image src="./images./19.png" class="haa">
+						</div>
+					</div>	
+					<div class="hw">
+						<h3>附近的体验店</h3>
+						<div class="hz">
+							<image src="./images./20.png" class="haa">
+						</div>
+					</div>
+					<div class="hx">
+						<h3>OPPO品牌</h3>
+						<div class="hz">
+							<image src="./images./21.png" class="haa">
+						</div>
+					</div>
+					<div class="hy"></div>
+				</div>		
+			
+		</div>
+		<div class="footer">
+			<div class="footer">
+				<div class="fa">
+					<div class="fb">
+						<div class="fe">
+							<image src="./images./12.png" width="60px">
+						</div>
+						<h3>OPPO社区</h3>
+					</div>
+					<div class="fc">
+						<div class="fe">
+							<image src="./images./13.png" width="60px">
+						</div>
+						<h3>ColorOS</h3>
+					</div>
+					<div class="fd">
+						<div class="fe">
+							<image src="./images./14.png" width="60px">
+						</div>
+						<h3>软件商店</h3>
+					</div>
+				</div>
+				
+				<div class="ff">
+					<div class="fg">
+						<h1>推荐机型</h1>
+						<a href="#"><h2 class="fh">R9</h2></a>
+						<a href="#"><h2>R7s</h2></a>
+						<a href="#"><h2>R7 Plus</h2></a>
+						<a href="#"><h2>R7</h2></a>
+					</div>
+					<div class="fi">
+						<h1>在线购买</h1>
+						<a href="#"><h2 class="fh">手机</h2></a>
+						<a href="#"><h2>配件</h2></a>
+						<a href="#"><h2>购物指南</h2></a>
+						<a href="#"><h2>购买保障服务</h2></a>
+						<a href="#"><h2>官方授权网店</h2></a>
+					</div>
+					<div class="fj">
+						<h1>服务</h1>
+						<a href="#"><h2 class="fh">购买帮助</h2></a>
+						<a href="#"><h2>物流查询</h2></a>
+						<a href="#"><h2>常见问题</h2></a>
+						<a href="#"><h2>服务政策</h2></a>
+						<a href="#"><h2>服务网店查询</h2></a>
+					</div>
+					<div class="fk">
+						<h1>会员相关</h1>
+						<a href="#"><h2 class="fh">会员登录</h2></a>
+						<a href="#"><h2>会员注册</h2></a>
+						<a href="#"><h2>积分兑换</h2></a>
+					</div>
+					<div class="fl">
+						<h1>OPPO品牌</h1>
+						<a href="#"><h2 class="fh">关于OPPO</h2></a>
+						<a href="#"><h2>咨询</h2></a>
+						<a href="#"><h2>摄影作品</h2></a>
+						<a href="#"><h2>我们的视频</h2></a>
+					</div>
+				</div>
+				<hr />
+				<div class="fm">
+					<div class="fn"><h3>关注我们</h3></div>
+					<div class="fo">
+						<ul>
+							<li><img src="images/15.png"><li>						
+							<li><img src="images/23.png">
+								<ul>
+									<li><img src="images/wx.png"></li>
+								</ul>
+							<li>
+						</ul>
+					</div>
+					<div class="fp"><h3>加入我们</h3></div>
+					<div class="fp"><h3>采购相关</h3></div>
+					<div class="fq">
+						<image src="./images./16.png"> 
+					</div>
+					<div class="fr">
+						<h1>在线客服</h1>
+						<h2>人工服务:8:30~22:00<br />24小时智能机器人服务</h2>
+					</div>
+					<div class="fs">
+						<image src="./images./17.png"> 
+					</div>
+					<div class="fr">
+						<h1>4001-666-888</h1>
+						<h2>7*24小时客服电话</h2>
+					</div>					
+				</div>
+				<hr />
+				<div class="ft">
+					<h3>@2005-2016东莞市永盛通信科技有限公司 版权所有 粤ICP备08130115号*1 联系方式：4001-666-888</h3>
+				</div>
+				<div class="fu">
+					<image src="./images./22.png"> 
+				</div>
+			</div>			
+		</div>
+		<div class="x"><a href="#">返回顶部</a></div>	
+	</div>
+</body>
